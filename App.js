@@ -63,9 +63,7 @@ export default class App extends Component<{}> {
     let eve = event.nativeEvent
     console.log(eve.pageX);
     console.log(eve.pageY);
-
-    // this._animatedValue = new Animated.ValueXY();
-
+    
     this._animatedValue.setValue({x: eve.pageX, y: eve.pageY});
 
   }
